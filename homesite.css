@@ -1,0 +1,239 @@
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f4f8f7;
+}
+
+/* NAVBAR */
+.navbar-brand span {
+    font-size: 0.85rem;
+    color: #6c757d;
+    display: block;
+    line-height: 1.1;
+}
+
+.btn-submit {
+    background-color: #2e8b57;
+    color: #fff;
+    font-weight: 600;
+}
+
+.btn-submit:hover {
+    background-color: #267349;
+}
+
+.navbar.sticky-top {
+    z-index: 1050;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}        
+/* HERO */
+.hero {
+  padding: 90px 0;
+  background: url('https://demo.getojs.cloud/plugins/themes/simpleOJS3/images/header-home-baru.jpg') top left no-repeat;
+  overflow: hidden;    
+  font-family: Arial, sans-serif;
+}
+
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.hero h1 span {
+    color: #2e8b57;
+}
+
+.hero p {
+    color: #5f6f73;
+    font-size: 1.05rem;
+}
+
+.search-box {
+    background: #fff;
+    border-radius: 10px;
+    padding: 14px 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.note-box {
+    background: #f4f1e8;
+    border-left: 4px solid #f4b400;
+    padding: 12px 16px;
+    border-radius: 6px;
+    font-size: 0.95rem;
+}
+
+.hero-img {
+    border-radius: 18px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    max-width: 100%;
+}
+
+/* WRAPPER */
+.journal-wrapper{
+    position:relative;
+    text-align:center;
+    margin-top:280px;
+}
+
+/* COVER (LEBIH KECIL & OVERLAP) */
+.journal-cover{
+    width:250px;
+    height:auto;
+    border-radius:10px;
+    box-shadow:0 6px 18px rgba(0,0,0,0.18);
+    position:absolute;
+    top:-270px;
+    left:50%;
+    transform:translateX(-50%);
+    z-index:3;
+    background:#fff;
+}
+
+/* CARD DESKRIPSI (LEBIH BESAR) */
+.journal-info{
+    background:#fff;
+    border-radius:16px;
+    padding:100px 20px 25px;
+    box-shadow:0 10px 24px rgba(0,0,0,0.12);
+}
+
+/* JUDUL */
+.journal-title{
+    font-size:1.4rem;
+    font-weight:700;
+    color:#5a2d0c;
+    margin-bottom:20px;
+}
+
+/* BUTTON */
+.btn-green{
+    background:#4cd964;
+    color:#fff;
+    font-weight:600;
+    border:none;
+}
+.btn-green:hover{
+    background:#3cb954;
+}
+
+/* TRANSISI GLOBAL */
+.journal-wrapper,
+.journal-cover,
+.journal-info {
+    transition: all 0.35s ease;
+}
+
+/* HOVER CARD */
+.journal-wrapper:hover .journal-info {
+    transform: translateY(-8px);
+    box-shadow: 0 18px 32px rgba(0,0,0,0.18);
+}
+
+/* HOVER COVER */
+.journal-wrapper:hover .journal-cover {
+    transform: translateX(-50%) translateY(-14px) scale(1.05);
+    box-shadow: 0 16px 28px rgba(0,0,0,0.25);
+}
+
+/* OPTIONAL: POINTER */
+.journal-wrapper:hover {
+    cursor: pointer;
+}
+
+
+.footer {
+    background-color: #3f9b77;
+    color: #ffffff;
+    font-size: 0.95rem;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-title {
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.footer-divider {
+    border-top: 1px solid rgba(255,255,255,0.3);
+    margin: 30px 0 20px;
+}
+
+.footer-bottom {
+    font-size: 0.9rem;
+}
+
+/* BADGE SINTA */
+.sinta-badge {
+  display: inline-block;
+  padding: 2px 5px;
+  border-radius: 5px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+/* WARNA PERINGKAT */
+.sinta-1{ background:#d4af37; }   /* Gold */
+.sinta-2{ background:#c0c0c0; }   /* Silver */
+.sinta-3{ background:#cd7f32; }   /* Bronze */
+.sinta-4{ background:#007bff; }   /* Blue */
+.sinta-5{ background:#28a745; }   /* Green */
+.sinta-6{ background:#6c757d; }   /* Grey */
+.sinta-7{ background:#272829; }
+.sinta-8{ background:#061f38; }
+
+.info-akreditasi {
+  text-align: left;
+  padding: 10px 0 0 0;
+  border-bottom: 1px solid #c4b9b9;
+}
+.info-terbit {
+  text-align: left;
+  padding: 10px 0 0 0;
+}
+
+.sinta-stat-card{
+    border-radius:16px;
+    padding:20px;
+    color:#fff;
+    text-align:center;
+    box-shadow:0 10px 20px rgba(0,0,0,0.15);
+}
+
+.sinta-stat-card h3{
+    font-size:2rem;
+    font-weight:800;
+    margin-bottom:5px;
+}
+
+.sinta-stat-card span{
+    font-size:0.9rem;
+    opacity:0.9;
+}
+
+.stat-home {
+  padding-bottom: 10px;
+  border-bottom: 2px dotted gray;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.list-journal {
+  font-weight: bold;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.search_tool {
+  padding-bottom: 20px;
+}
