@@ -237,3 +237,13 @@ body {
 .search_tool {
   padding-bottom: 20px;
 }
+
+@media (max-width: 767px) {
+    .hero {
+        padding: 90px 0;
+        background: linear-gradient(to bottom, #4b97d7, #f4f8f7);
+    }
+    .hero h1 {
+        color: #094193;
+    }    
+}
